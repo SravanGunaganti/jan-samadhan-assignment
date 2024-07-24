@@ -1,0 +1,91 @@
+.todos-bg-container {
+    background-color: #f9fbfe;
+    height: 100vh;
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.todo-title{
+    font-size: 15px;
+}
+.todo-item{
+    display:flex;
+    font-size:15px;
+    justify-content: start;
+    margin-bottom:10px;
+    align-items: center;
+}
+.del-button{
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    height:40px;
+    border-radius: 5px;
+    background-color: red;
+    margin-left:10px;
+}
+
+
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+.todo-items-container {
+    margin: 0;
+    padding: 0;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0;
+    height:40px;
+    border-radius: 5px;
+    margin-left:10px;
+}
+.todo-items-container{
+    list-style-type: none;
+    margin-top:20px;
+    margin-bottom:20px;
+}
